@@ -1,8 +1,16 @@
 :root{
+
     --fuente__principal: Montserrat, sans-serif;
 
     --color__principal: rgb(20 35 37);
+    --color__fondo__claro: white;
 
     --color__fuente__principal: whitesmoke;
 
+}
+
+.btn{
+    font-family: var(--fuente__principal);
+    font-size: 1.2rem;
+    padding: 15px 60px;
 }

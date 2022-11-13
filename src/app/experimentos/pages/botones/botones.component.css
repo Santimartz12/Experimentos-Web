@@ -1,0 +1,44 @@
+.botones{
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    margin: 25px;
+}
+
+.titulo__botones{
+    font-family: var(--fuente__principal);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 10px 0 20px 0;
+    color: var(--color__principal);
+}
+
+.botones__lista{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item__boton{
+    margin: 15px;
+    background-color: var(--color__principal);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 10px 25px 10px;
+}
+
+.subtitulo__boton{
+    color: var(--color__fuente__principal);
+    font-family: var(--fuente__principal);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 15px auto 20px auto;
+}
+
+
+/* Seccion de los botones */

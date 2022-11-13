@@ -10,7 +10,7 @@ export class AppComponent{
   @ViewChild('btn__presentacion') btnPresentacion! : ElementRef;
 
   //TODO:                     Cambiar a true
-  mostrarPresentacion : boolean = true;
+  mostrarPresentacion : boolean = false;
   estiloPresentacion : string = "presentacion__page";
 
   entrar(){
@@ -23,7 +23,7 @@ export class AppComponent{
   moverse(){
     console.log("Deberia Moverse");
     const largo = window.screen.availWidth - 380;
-    const alto = window.screen.availHeight - 180;
+    const alto = window.screen.availHeight - 200;
     this.btnPresentacion.nativeElement.
     style = ` position: absolute ; top: ${Math.random() * alto}px; left: ${Math.random() * largo}px`
   }

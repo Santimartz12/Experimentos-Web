@@ -1,9 +1,11 @@
 .sidebar{
+    grid-area: 'sidebar';
     background-color: var(--color__principal);
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 250px;
     height: 100vh;
+    position: fixed;
 }
 
 .titulo__sidebar{
@@ -30,13 +32,14 @@
     font-family: var(--fuente__principal);
     border-radius: 10px 0 0 10px;
     font-weight: 500;
-    color: white;
+    color: var(--color__fondo__claro);
     padding: 20px;
     user-select: none;
+    cursor: pointer;
 }
 
 .active{
-    background-color: white;
+    background-color: var(--color__fondo__claro);
     color: var(--color__principal);
 }
 
@@ -49,8 +52,8 @@
     left: 220px;
     width: 30px;
     height: 30px;
-    background-color: #142325;
-    box-shadow: 10px -10px white;
+    background-color: var(--color__principal);
+    box-shadow: 10px -10px var(--color__fondo__claro);
     border-radius: 12px;
 }
 
@@ -63,6 +66,6 @@
     width: 30px;
     height: 30px;
     background-color: #142325;
-    box-shadow: 10px 10px white;
+    box-shadow: 10px 10px var(--color__fondo__claro);
     border-radius: 12px;
 }

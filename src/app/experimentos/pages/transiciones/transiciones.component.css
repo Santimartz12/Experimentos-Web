@@ -1,0 +1,6 @@
+.transiciones{
+    background-color: aqua;
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    margin: 25px;
+}

@@ -16,6 +16,14 @@ export class SidebarComponent implements OnInit {
       nombre: 'Transiciones',
       url: '/experimentos/transiciones'
     },
+    {
+      nombre: 'Menús',
+      url: '/experimentos/menus'
+    },
+    {
+      nombre: 'Inputs',
+      url: '/experimentos/inputs'
+    },
   ]
 
   constructor() { }

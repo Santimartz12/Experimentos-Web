@@ -1,0 +1,27 @@
+.btn__outer__glow{
+    background-color: #333;
+    color: rgb(163, 163, 163);
+    border-radius: 10px;
+    border: none;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+.btn__outer__glow:hover{
+    color: white;
+    box-shadow:
+    inset 0 0 60px rgba(255, 255, 255, 0.537),
+    inset 10px 0 20px rgb(255, 0, 234),
+    -10px 0 20px rgb(255, 0, 234),
+    inset -10px 0 20px rgb(0, 162, 255),
+    10px 0 20px rgb(0, 162, 255),
+    inset 10px 0 50px rgba(255, 0, 234, 0.518),
+    inset -10px 0 50px rgba(0, 162, 255, 0.518);
+}
+
+/* inset -10px 0 20px rgb(255, 136, 0,0.2),
+inset 5px 0 70px rgba(255, 238, 0, 0.2),
+inset -5px 0 700px rgba(119, 255, 0, 0.2),
+-10px 0 20px rgb(255, 136, 0,0.2),
+5px 0 70px rgba(255, 238, 0, 0.2),
+-5px 0 700px rgba(119, 255, 0, 0.2); */
