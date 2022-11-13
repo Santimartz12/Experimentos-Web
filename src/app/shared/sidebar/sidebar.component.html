@@ -1,0 +1,13 @@
+<div class="sidebar">
+    <h2 class="titulo__sidebar">Experimentos 
+        <br><span class="web__titulo">web</span></h2>
+    <ul class="elementos__lista">
+        <li 
+        *ngFor="let item of listadoPags" 
+        [routerLink]="item.url" 
+        class="elemento__item" 
+        routerLinkActive="active">
+            {{item.nombre}}
+        </li>
+    </ul>
+</div>
