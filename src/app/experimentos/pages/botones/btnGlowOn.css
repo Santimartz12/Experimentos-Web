@@ -1,6 +1,11 @@
 .btn__glow__on{
-    background-color: #00e1ff; position: relative; cursor: pointer; font-weight: 400; border: none;
-    overflow: hidden; box-shadow: 0 5px 10px #00e1ff60;
+    background-color: #00e1ff; 
+    position: relative; 
+    cursor: pointer; 
+    font-weight: 400; 
+    border: none;
+    overflow: hidden; 
+    box-shadow: 0 5px 10px #00e1ff60;
 }
 
 .btn__glow__on::after{

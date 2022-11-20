@@ -21,7 +21,6 @@ export class AppComponent{
   }
   
   moverse(){
-    console.log("Deberia Moverse");
     const largo = window.screen.availWidth - 380;
     const alto = window.screen.availHeight - 200;
     this.btnPresentacion.nativeElement.

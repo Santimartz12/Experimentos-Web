@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
     './botones.component.css',
     './btnGlowOn.css',
     './btnOuterGlow.css',
+    './btnGota.css',
   ]
 })
 export class BotonesComponent implements OnInit {

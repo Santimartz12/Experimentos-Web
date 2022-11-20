@@ -1,0 +1,106 @@
+.btn__gota {
+
+    background: none;
+    border-radius: 35px;
+    border: none;
+    color: white;
+
+    box-shadow:
+        inset 7px 8px 4px -7px rgb(250 250 250),
+        inset -7px -5px 16px -9px rgb(255 255 255 / 73%),
+        inset 12px 12px 17px -18px rgb(0 0 0 / 58%),
+        11px 4px 7px rgb(1 1 1 / 39%),
+        -8px -6px 6px -9px rgba(255, 255, 255, 0.579);
+
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.btn__gota:hover {
+
+    position: relative;
+    animation: gota 500ms ease-in-out 0ms 1;
+
+}
+
+@keyframes gota {
+
+    0% {
+        padding: 15px 60px;
+    }
+
+    30% {
+        padding: 11px 70px;
+    }
+
+    60% {
+        padding: 15px 60px;
+    }
+
+    80% {
+        padding: 13px 65px;
+    }
+
+    100% {
+        padding: 15px 60px;
+    }
+
+}
+
+.btn__gota span {
+
+    width: 26px;
+    height: 27px;
+    margin-top: 5px;
+    margin-left: 27px;
+    background: none;
+    position: absolute;
+    box-shadow: 2px 2px 1px -3px white;
+    border-radius: 0 0 100% 0;
+    transition: all 300ms;
+
+}
+
+.btn__gota:hover span {
+
+    animation: reflejo 500ms ease-in-out 0ms 1;
+}
+
+@keyframes reflejo {
+
+    0% {
+        width: 26px;
+        height: 27px;
+        margin-top: 5px;
+        margin-left: 27px;
+    }
+
+    30% {
+        width: 17px;
+        height: 19px;
+        margin-top: 8px;
+        margin-left: 42px;
+    }
+
+    60% {
+        width: 26px;
+        height: 27px;
+        margin-top: 5px;
+        margin-left: 27px;
+    }
+
+    80% {
+        width: 21px;
+        height: 23px;
+        margin-top: 6px;
+        margin-left: 34px;
+    }
+
+    100% {
+        width: 26px;
+        height: 27px;
+        margin-top: 5px;
+        margin-left: 27px;
+    }
+
+}

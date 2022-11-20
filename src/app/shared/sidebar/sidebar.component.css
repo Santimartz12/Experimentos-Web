@@ -65,7 +65,7 @@
     left: 220px;
     width: 30px;
     height: 30px;
-    background-color: #142325;
+    background-color: var(--color__principal);
     box-shadow: 10px 10px var(--color__fondo__claro);
     border-radius: 12px;
 }
